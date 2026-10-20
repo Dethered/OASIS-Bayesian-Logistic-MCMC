@@ -26,7 +26,7 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 **Clinical Parameter Results:** Quantified epistemic uncertainty through 95% Credible Intervals and Posterior Odds Ratios, identifying Mini-Mental State Examination (MMSE) and Normalized Whole Brain Volume (nWBV) as the primary protective biomarkers against dementia progression.
 
 ### Convergence Diagnostic Summary Table
-(./alzheimer_output_table.PNG)
+![Alzheimer Convergence Summary Table](./alzheimer_output_table.PNG)
 
 ### Diagnostic Visualizations
 
