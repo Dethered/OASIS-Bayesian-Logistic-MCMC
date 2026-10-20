@@ -1,4 +1,4 @@
-# Custom Multi-Chain Metropolis-Hastings MCMC Sampler and Diagnostic Framework for Bayesian Logistic Regression
+# Custom Parallel Multi-Chain MCMC Sampler for Bayesian Logistic Regression on Longitudinal Alzheimer's Progression
 
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
