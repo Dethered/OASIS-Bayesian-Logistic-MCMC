@@ -24,3 +24,11 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 **Single/Multi-Chain MCMC Convergence Diagnostics:** Evaluated stationarity and mixing efficiency via Gelman-Rubin, Blom's quantile-transformed Rank-Normalized Split, and Charles Geyer's Integrated Autocorrelation Time (IAT) method for Bulk and Tail Effective Sample Sizes.\
 \
 **Clinical Parameter Results:** Quantified epistemic uncertainty through 95% Credible Intervals and Posterior Odds Ratios, identifying Mini-Mental State Examination (MMSE) and Normalized Whole Brain Volume (nWBV) as the primary protective biomarkers against dementia progression.
+
+### Diagnostic Visualizations
+
+Below are the trace plots, posterior distributions, and ESS comparisons generated during model validation:
+
+![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.PNG)
+
+![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
