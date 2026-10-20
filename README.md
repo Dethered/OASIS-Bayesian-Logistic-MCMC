@@ -29,6 +29,7 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 
 Below are the trace plots, posterior distributions, and ESS comparisons generated during model validation:
 
+![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
+
 ![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.PNG)
 
-![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
