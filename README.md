@@ -1,13 +1,15 @@
 # Custom Multi-Chain Metropolis-Hastings MCMC Sampler and Diagnostic Framework for Bayesian Logistic Regression
 
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter)]
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 
+---
 **Author:** Daniel Therattil
 
 **Methodology:** Custom Metropolis-Hastings MCMC(Markov Chain Monte Carlo) Sampler | Gaussian Priors & Log-Posterior Derivations | Multi-Chain Initialization | Bayesian Logistic Regression 
 
 **Key Validation Metrics:**  Gelman-Rubin: $\hat{R} \lt 1.01$ | Rank-Normalized Multi-Chain Split: $\hat{R} \lt 1.01$ | Bulk ESS: $\gt 400$ | Tail ESS: $\gt 400$
+---
 
 ### Abstract & Methodological Overview
 This project is an implementation of a Bayesian Logistic Regression framework built from scratch to evaluate clinical dementia risk using the OASIS Longitudinal cohort. I built it without statistical high-level wrappers (PyMC, Stan, or scikit-learn), the inference engine relies on a custom Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler written in NumPy matrix algebra.
