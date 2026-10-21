@@ -1,4 +1,4 @@
-# Custom Parallel Multi-Chain MCMC Sampler for Bayesian Logistic Regression on Longitudinal Alzheimer's Progression
+# Custom Parallel Multi-Chain MCMC Sampler for Bayesian Logistic Regression on Cross-Sectional Alzheimer's Progression
 
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
