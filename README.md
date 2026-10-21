@@ -28,6 +28,11 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 ### Convergence Diagnostic Summary Table
 ![Alzheimer Convergence Summary Table](./alzheimer_output_table.PNG)
 
+### Sampler Validation
+While convergence diagnostics like before with Gelman Rubin and high Bulk/Tail Effective Sample Size, along with the multi-chain trace plots confirm that my custom Metropolis-Hastings  are mixed well and stabilized, said convergence does not necessarily guarantee that everything is correct. This is especially evident since I'm doing it from scratch. For example, a flawed log-posterior implementation or subtle scaling bugs can lead to a sampler converging to the a false mathematical target distribution. Thus, to verify whether it's correct or not, I need to see how it fairs in comparison with its draws against PyMC's No-U-Turn Sampler (NUTS), which is just an automated Hamiltonian Monte Carlo algorithm. I know Stan is also a fair option for comparison but I'm choosing PyMC due to it not requiring any C++ compilers etc.
+
+![PyMc Comparison](./alzheimer_comparison.png)
+
 ### Diagnostic Visualizations
 
 Below are the single/multi-chain trace plots, posterior distributions, ESS validations, and comparison to HMC from PyMc:
@@ -37,6 +42,4 @@ Below are the single/multi-chain trace plots, posterior distributions, ESS valid
 ![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.PNG)
 
 ![Multi-Chain Trace Plots](./alzheimer_multichain_traceplots.png)
-
-![PyMc Comparison](./alzheimer_comparison.png)
 
