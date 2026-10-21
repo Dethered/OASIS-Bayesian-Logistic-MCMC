@@ -30,9 +30,13 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 
 ### Diagnostic Visualizations
 
-Below are the single/multi-chain trace plots, posterior distributions, ESS comparisons, and  generated during model validation:
+Below are the single/multi-chain trace plots, posterior distributions, ESS validations, and comparison to HMC from PyMc:
 
 ![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
 
-![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.PNG)
+![Trace Plots and Posterior Distributions](.alzheimer_traceplots_distribution_visualizations.PNG)
+
+![Multi-Chain Trace Plots](./alzheimer_multichain_traceplots.png)
+
+![PyMc Comparison](./alzheimer_comparison.png)
 
