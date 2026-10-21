@@ -35,7 +35,7 @@ While convergence diagnostics like before with Gelman Rubin and high Bulk/Tail E
 
 ### Diagnostic Visualizations
 
-Below are the single/multi-chain trace plots, posterior distributions, ESS validations, and comparison to HMC from PyMc:
+Below are the single/multi-chain trace plots, posterior distributions, and ESS validations:
 
 ![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
 
