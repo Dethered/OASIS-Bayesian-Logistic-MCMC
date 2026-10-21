@@ -14,7 +14,7 @@
 ---
 
 ### Abstract & Methodological Overview
-This project is an implementation of a Bayesian Logistic Regression framework built from scratch to evaluate clinical dementia risk using the OASIS Longitudinal cohort. I built it without statistical high-level wrappers (PyMC, Stan, or scikit-learn), the inference engine relies on a custom Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler written in NumPy matrix algebra.
+This project is an implementation of a Bayesian Logistic Regression framework built from scratch to evaluate clinical dementia risk using the OASIS Longitudinal cohort. I built it without statistical high-level wrappers (PyMC, Stan, or scikit-learn), the inference engine relies on a custom Metropolis-Hastings Markov Chain Monte Carlo (MCMC) sampler written in NumPy matrix algebra. Metropolis Hastings was chosen because it requires only log-posterior evaluations and is faster to implement and tune for a low-dimensional model compared to more resource-heavy alternatives like Hamiltonian Monte Carlo.
 
 ###  Key Statistical Methods and Results:
 **Prior Specification & Joint Log-Posterior Formulation:** Evaluated uninformative Gaussian priors across standardized biomarkers and derived the unnormalized log-posterior distribution via matrix vectorization. Handled floating-point numerical stability using log-sum-exp transformations to prevent burgeoning or computational overflow during likelihood calculations.\
@@ -30,7 +30,7 @@ This project is an implementation of a Bayesian Logistic Regression framework bu
 
 ### Diagnostic Visualizations
 
-Below are the trace plots, posterior distributions, and ESS comparisons generated during model validation:
+Below are the single/multi-chain trace plots, posterior distributions, ESS comparisons, and  generated during model validation:
 
 ![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
 
