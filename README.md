@@ -39,7 +39,7 @@ Below are the single/multi-chain trace plots, posterior distributions, and ESS v
 
 ![Bulk vs Tail Effective Sample Size](./alzheimer_ess_visualization.PNG)
 
-![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.PNG)
+![Trace Plots and Posterior Distributions](./alzheimer_traceplots_distribution_visualizations.png)
 
 ![Multi-Chain Trace Plots](./alzheimer_multichain_traceplots.png)
 
